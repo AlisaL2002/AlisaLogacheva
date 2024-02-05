@@ -1,6 +1,7 @@
 {
   "name": "alisalogacheva",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "Node.js",
   "scripts": {
