@@ -13,9 +13,10 @@ const quotes = [
 import { flattening, loop, everyLoop, everySome } from './exercises.js';
 
 let arrays = [[1, 2, 3], [4, 5], [6]];
-console.log(flattening(arrays)); // → [1, 2, 3, 4, 5, 6]
+console.log(flattening(arrays)); // Should output in terminal → [1, 2, 3, 4, 5, 6]
 
 loop(3, n => n > 0, n => n - 1, console.log);
+// Should output in terminal:
 // → 3
 // → 2
 // → 1
